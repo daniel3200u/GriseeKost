@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 export default function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -124,18 +127,13 @@ export default function App() {
               className="rounded-[30px] w-full shadow-lg"
             />
           </div>
-        </div>
-        <div class="">
-          
+          <iframe className="flex" src="https://v2-embednotion.com/13cd6e988eac809db648cacd58960b50" width="100%" height="400"></iframe>
         </div>
       </div>
       {/* Add a Footer or Extra Content */}
       <footer className="bg-black-900 text-center py-4">
         <p>© 2024 GriseeKost. All Rights Reserved.</p>
       </footer>
-      <div class="">
-
-      </div>
     </div>
   );
 }
