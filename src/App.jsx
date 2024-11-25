@@ -125,7 +125,7 @@ export default function App() {
               Join
               <span className="ml-3 text-xl">&rarr;</span>
             </button>
-              </a>
+            </a>
           </div>
           <div className="flex-1 p-8">
             <img
@@ -176,7 +176,35 @@ export default function App() {
           </div>
         </div>
       </div>
+      <div className="container mx-auto py-16">
+    <h1 className="text-3xl font-bold text-center mb-8">WELCOME TO YOUR HOME AWAY FROM HOME</h1>
+    <p className="text-center mb-16">Whether you seek a quiet spot for focused study or a peaceful retreat from the demands of the day, this welcoming accommodation caters to your needs impeccably.</p>
 
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mx-32">
+      <div className="bg-white rounded-lg p-8 text-black">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-16   
+ h-16 mx-auto mb-4">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M15 15l-2 5L9 9l11 4-5 2z" />
+        </svg>
+        <h3 className="text-2xl font-bold">1-2 menit jalan kaki dari FK UNAIR</h3>
+      </div>
+      <div className="bg-white rounded-lg p-8 text-black">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-16   
+ h-16 mx-auto mb-4">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m0-3m0-3v3" />
+          <path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        <h3 className="text-2xl font-bold mx-28">Fasilitas lengkap</h3>
+      </div>
+      <div className="bg-white rounded-lg p-8 text-black">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-16   
+ h-16 mx-auto mb-4">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m0 0v2.25m-6.364.386l-1.591 1.591M12 18h2.25m0-6.364l1.591 1.591M5 12h3m-1.654-4.695l-1.591-1.591M5 12l4.695 4.695 1.591-1.591" />
+        </svg>
+        <h3 className="text-2xl font-bold">Rooftop luas dengan view istimewa</h3>
+      </div>
+    </div>
+  </div>
       {/* Iframe Section */}
       <div className="mt-12 px-20 flex justify-start">
         <iframe
