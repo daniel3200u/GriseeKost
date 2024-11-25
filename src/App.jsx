@@ -102,6 +102,7 @@ export default function App() {
       </nav>
 
       {/* Main Content */}
+      <div className="px-8 mt-12">
       <div className="flex-1 flex items-center justify-center">
         <div className="flex flex-col md:flex-row items-center justify-between w-3/4 max-w-6xl">
           <div className="flex-1 p-8">
@@ -175,13 +176,14 @@ export default function App() {
       </div>
 
       {/* Iframe Section */}
-      <div className="mt-12 px-8">
+      <div className="mt-12 px-20 flex justify-start">
         <iframe
-          className="w-full rounded-lg shadow-lg"
+          className="w-1/2 lg:w-2/3 rounded-lg shadow-lg"
           src="https://v2-embednotion.com/13cd6e988eac809db648cacd58960b50"
           width="100%"
           height="400"
         ></iframe>
+      </div>
       </div>
 
       {/* Footer */}
