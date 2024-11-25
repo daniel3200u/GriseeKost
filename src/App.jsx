@@ -147,7 +147,7 @@ export default function App() {
                 </div>
             </div>
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
-                <img src="https://grissee-kost.my.canva.site/about/media/ccfacc249483aac8369534fd15786ac0.jpg" alt="Kamar Mandi" className="w-full h-40 object-cover"/>
+                <img src="https://grissee-kost.my.canva.site/about/media/11ea3804392c5e7f5e663cf1635eb7b5.jpg" alt="Kamar Mandi" className="w-full h-40 object-cover"/>
                 <div className="p-4">
                     <h2 className="text-xl font-semibold text-orange-600 mb-2">Kamar Mandi (dalam)</h2>
                     <p className="text-gray-700">Shower, WC duduk, exhauster, gantungan baju</p>
