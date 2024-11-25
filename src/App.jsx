@@ -120,10 +120,12 @@ export default function App() {
               untuk mahasiswa yang ingin fokus belajar tanpa membebani biaya.
               Grisee Kost, solusi sempurna untuk kebutuhan Anda!
             </p>
+            <a href="http://wa.me/6282336049898" target="_blank" rel="noopener noreferrer">
             <button className="flex bg-lime-500 text-black font-bold px-6 py-3 rounded-full hover:bg-lime-600">
               Join
               <span className="ml-3 text-xl">&rarr;</span>
             </button>
+              </a>
           </div>
           <div className="flex-1 p-8">
             <img
