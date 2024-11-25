@@ -127,8 +127,40 @@ export default function App() {
               className="rounded-[30px] w-full shadow-lg"
             />
           </div>
-          <iframe className="flex" src="https://v2-embednotion.com/13cd6e988eac809db648cacd58960b50" width="100%" height="400"></iframe>
         </div>
+      </div>
+      <div className="flex flex-row max-w-7xl mx-auto py-8 px-4">
+          <h1 className="text-3xl font-bold text-center text-white mb-8">THE ROOM</h1>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://grissee-kost.my.canva.site/about/media/ccfacc249483aac8369534fd15786ac0.jpg" alt="Kamar" className="w-full h-40 object-cover"/>
+                <div className="p-4">
+                    <h2 className="text-xl font-semibold text-orange-600 mb-2">Kamar</h2>
+                    <p className="text-gray-700">Springbed, bantal & guling, AC, gantungan baju</p>
+                </div>
+            </div>
+            <div className="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://grissee-kost.my.canva.site/about/media/ff52f4822eed440768491e4376f83198.jpg" alt="Set Belajar dan Pakaian" className="w-full h-40 object-cover"/>
+                <div className="p-4">
+                    <h2 className="text-xl font-semibold text-orange-600 mb-2">Set belajar dan pakaian</h2>
+                    <p className="text-gray-700">Lemari besi, meja belajar, kursi empuk</p>
+                </div>
+            </div>
+            <div className="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://grissee-kost.my.canva.site/about/media/ccfacc249483aac8369534fd15786ac0.jpg" alt="Kamar Mandi" className="w-full h-40 object-cover"/>
+                <div className="p-4">
+                    <h2 className="text-xl font-semibold text-orange-600 mb-2">Kamar Mandi (dalam)</h2>
+                    <p className="text-gray-700">Shower, WC duduk, exhauster, gantungan baju</p>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div className="mt-12 px-8">
+        <iframe className="w-full rounded-lg shadow-lg" 
+        src="https://v2-embednotion.com/13cd6e988eac809db648cacd58960b50" 
+        width="100%" 
+        height="400">
+        </iframe>
       </div>
       {/* Add a Footer or Extra Content */}
       <footer className="bg-black-900 text-center py-4">
