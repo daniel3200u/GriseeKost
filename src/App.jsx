@@ -180,7 +180,7 @@ export default function App() {
     <h1 className="text-3xl font-bold text-center mb-8">WELCOME TO YOUR HOME AWAY FROM HOME</h1>
     <p className="text-center mb-16">Whether you seek a quiet spot for focused study or a peaceful retreat from the demands of the day, this welcoming accommodation caters to your needs impeccably.</p>
 
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mx-32">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mx-10">
       <div className="bg-white rounded-lg p-8 text-black">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-16   
  h-16 mx-auto mb-4">
