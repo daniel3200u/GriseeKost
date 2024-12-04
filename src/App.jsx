@@ -206,9 +206,10 @@ export default function App() {
     </div>
   </div>
       {/* Iframe Section */}
+{/*         flex-row w-1/2 lg:w-2/3 rounded-lg shadow-lg */}
       <div className="flex flex-row mt-12 px-20 flex justify-start">
         <iframe
-          className="w-1/2 lg:w-2/3 rounded-lg shadow-lg"
+          className="rounded-lg shadow-lg"
           src="https://v2-embednotion.com/13cd6e988eac809db648cacd58960b50"
           width="100%"
           height="400"
