@@ -207,14 +207,17 @@ export default function App() {
   </div>
       {/* Iframe Section */}
 {/*         flex-row w-1/2 lg:w-2/3 rounded-lg shadow-lg */}
-      <div className="flex flex-row mt-12 px-20 flex justify-start">
-        <iframe
-          className="rounded-lg shadow-lg"
-          src="https://v2-embednotion.com/13cd6e988eac809db648cacd58960b50"
-          width="100%"
-          height="400"
-        ></iframe>
-      </div>
+      <div className="flex flex-col mt-12 px-4 sm:px-8 lg:px-20 justify-center">
+  <iframe
+    className="rounded-lg shadow-lg"
+    src="https://v2-embednotion.com/13cd6e988eac809db648cacd58960b50"
+    style={{
+      width: "100%", // Lebar penuh
+      height: "400px", // Tinggi tetap
+      border: "none",
+    }}
+  ></iframe>
+</div>
       </div>
 
       {/* Footer */}
